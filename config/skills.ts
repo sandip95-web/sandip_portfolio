@@ -8,153 +8,169 @@ export interface skillsInterface {
 }
 
 export const skillsUnsorted: skillsInterface[] = [
-  {
-    name: "Next.js",
-    description:
-      "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
-    rating: 5,
-    icon: Icons.nextjs,
-  },
-  {
-    name: "React",
-    description:
-      "Craft interactive user interfaces using components, state, props, and virtual DOM.",
-    rating: 5,
-    icon: Icons.react,
-  },
-  {
-    name: "GraphQL",
-    description:
-      "Fetch data precisely with a powerful query language for APIs and runtime execution.",
-    rating: 4,
-    icon: Icons.graphql,
-  },
-  {
-    name: "Nest.js",
-    description:
-      "Create scalable and modular applications with a progressive Node.js framework.",
-    rating: 4,
-    icon: Icons.nestjs,
-  },
-  {
-    name: "express.js",
-    description:
-      "Build web applications and APIs quickly using a fast, unopinionated Node.js framework.",
-    rating: 5,
-    icon: Icons.express,
-  },
+  // Backend & Core
   {
     name: "Node.js",
     description:
-      "Run JavaScript on the server side, enabling dynamic and responsive applications.",
+      "Build high-performance, asynchronous backend systems and RESTful APIs for production services.",
     rating: 5,
     icon: Icons.nodejs,
   },
   {
-    name: "MongoDB",
+    name: "Express.js",
     description:
-      "Store and retrieve data seamlessly with a flexible and scalable NoSQL database.",
+      "Develop secure, modular server-side web applications, middleware, and API endpoints.",
     rating: 5,
-    icon: Icons.mongodb,
+    icon: Icons.express,
   },
   {
-    name: "Typescript",
+    name: "TypeScript",
     description:
-      "Enhance JavaScript with static types, making code more understandable and reliable.",
+      "Type-safe application development ensuring maintainable, scalable, and robust codebases.",
     rating: 5,
     icon: Icons.typescript,
   },
   {
-    name: "Javascript",
+    name: "JavaScript",
     description:
-      "Create interactive and dynamic web experiences with the versatile scripting language.",
+      "Core language for full-stack engineering across server runtimes and client interfaces.",
     rating: 5,
     icon: Icons.javascript,
   },
   {
-    name: "HTML 5",
+    name: "MongoDB",
     description:
-      "Structure web content beautifully with the latest version of HyperText Markup Language.",
-    rating: 4,
-    icon: Icons.html5,
+      "Schema design, complex aggregations, and data modeling using Mongoose for scalable platforms.",
+    rating: 5,
+    icon: Icons.mongodb,
   },
   {
-    name: "CSS 3",
+    name: "PostgreSQL",
     description:
-      "Style web pages creatively with the latest iteration of Cascading Style Sheets.",
+      "Relational database design, querying, data integrity, and ORM integration.",
     rating: 4,
-    icon: Icons.css3,
+    icon: Icons.postgresql,
   },
   {
-    name: "React Native",
+    name: "Redis",
     description:
-      "Develop cross-platform mobile apps using React for consistent and engaging experiences.",
+      "In-memory caching and message handling to accelerate backend responsiveness and reduce latency.",
+    rating: 4,
+    icon: Icons.redis,
+  },
+  {
+    name: "BullMQ",
+    description:
+      "Distributed message queue and background job processing on top of Redis.",
+    rating: 4,
+    icon: Icons.settings,
+  },
+  {
+    name: "REST APIs",
+    description:
+      "Design and implementation of standard, secure, and well-structured RESTful endpoints.",
+    rating: 5,
+    icon: Icons.link,
+  },
+  {
+    name: "GraphQL",
+    description:
+      "Declarative API querying, schemas, and efficient data retrieval.",
+    rating: 4,
+    icon: Icons.graphql,
+  },
+  {
+    name: "NestJS",
+    description:
+      "Enterprise modular architecture with dependency injection and TypeScript.",
+    rating: 4,
+    icon: Icons.nestjs,
+  },
+  {
+    name: "Django",
+    description:
+      "Python-based web framework for backend endpoints and rapid service development.",
+    rating: 4,
+    icon: Icons.django,
+  },
+  {
+    name: "Python",
+    description:
+      "Scripting, backend service development, data processing, and automation.",
+    rating: 4,
+    icon: Icons.python,
+  },
+  {
+    name: "C",
+    description:
+      "Fundamental procedural programming, systems foundations, and memory concepts.",
+    rating: 3,
+    icon: Icons.cLang,
+  },
+  {
+    name: "Prisma & Mongoose",
+    description:
+      "Database ORM/ODM modeling for structured access, migrations, and schema validation.",
+    rating: 4,
+    icon: Icons.prisma,
+  },
+  {
+    name: "Zod",
+    description:
+      "TypeScript-first schema declaration and runtime data validation for APIs.",
+    rating: 4,
+    icon: Icons.check,
+  },
+  // Frontend
+  {
+    name: "React.js",
+    description:
+      "Component-based UI development, state management, and API integration for web apps.",
     rating: 4,
     icon: Icons.react,
   },
   {
-    name: "Angular",
+    name: "Next.js",
     description:
-      "Build dynamic web apps with a TypeScript-based open-source framework by Google.",
-    rating: 3,
-    icon: Icons.angular,
-  },
-  {
-    name: "Redux",
-    description:
-      "Manage app state effectively using a predictable and centralized state container.",
+      "Server-side rendering, App Router, and full-stack React framework features.",
     rating: 4,
-    icon: Icons.redux,
+    icon: Icons.nextjs,
   },
   {
-    name: "Socket.io",
+    name: "HTML 5 & CSS 3",
     description:
-      "Enable real-time, bidirectional communication between clients and servers effortlessly.",
-    rating: 3,
-    icon: Icons.socketio,
-  },
-  {
-    name: "Material UI",
-    description:
-      "Create stunning and responsive UIs with a popular React UI framework.",
+      "Semantic markup, responsive layouts, and modern web interface styling.",
     rating: 4,
-    icon: Icons.mui,
+    icon: Icons.html5,
   },
-
+  // QA & Testing
   {
-    name: "Tailwind CSS",
+    name: "Manual Testing & QA",
     description:
-      "Design beautiful, modern websites faster with a utility-first CSS framework.",
-    rating: 5,
-    icon: Icons.tailwindcss,
-  },
-  {
-    name: "AWS",
-    description:
-      "Utilize Amazon Web Services to build and deploy scalable, reliable, and secure applications.",
-    rating: 3,
-    icon: Icons.amazonaws,
-  },
-  {
-    name: "Bootstrap",
-    description:
-      "Quickly create responsive and appealing web designs using a popular CSS framework.",
-    rating: 2,
-    icon: Icons.bootstrap,
-  },
-  {
-    name: "MySQL",
-    description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 2,
-    icon: Icons.mysql,
-  },
-  {
-    name: "Netlify",
-    description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
+      "SDLC execution, functional requirement analysis, test scenarios, test cases, and test plans.",
     rating: 4,
-    icon: Icons.netlify,
+    icon: Icons.check,
+  },
+  {
+    name: "Git & GitHub / GitLab",
+    description:
+      "Version control workflows, branching, pull requests, code reviews, and issue tracking.",
+    rating: 4,
+    icon: Icons.git,
+  },
+  {
+    name: "Docker",
+    description:
+      "Containerizing backend services for consistent development and deployment environments.",
+    rating: 3,
+    icon: Icons.docker,
+  },
+  {
+    name: "Jira",
+    description:
+      "Agile sprint tracking, task coordination, and bug defect reporting.",
+    rating: 3,
+    icon: Icons.jira,
   },
 ];
 

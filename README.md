@@ -1,149 +1,86 @@
-<a href="https://buymeachai.ezee.li/namanbarkiya" target="_blank" rel="noopener noreferrer"><img src="https://res.cloudinary.com/dvt5vkfwz/image/upload/v1767625332/buy_chai_naman.png" alt="Buy Me A Chai" width="200"></a>
+# Sandeep Maharjan — Portfolio Website
 
-# Next.js 16 Developer Portfolio Template
-
-A modern, responsive, and SEO-optimized **Next.js 16 portfolio template** designed for developers, designers, and professionals. This open-source project helps you showcase your skills, experience, and projects with an elegant interface that stands out. Built with server-side rendering, TypeScript, and the latest web standards for optimal performance.
-
-## ✨ Key Features
-
-- **Professional Experience Timeline**: Showcase your career journey with a visually appealing timeline
-- **Project Showcase**: Display your technical projects with detailed information and live demos
-- **Multiple Themes**: Dark, Light, Retro, Cyberpunk, Aurora, Synthwave, and Paper themes
-- **Responsive Design**: Optimized for all devices (mobile, tablet, desktop)
-- **100% Performance Score**: Fully optimized for speed and Core Web Vitals
-- **SEO-Ready**: Structured data, meta tags, and optimized content
-- **Modern Tech Stack**: Next.js 16, React 19, TypeScript, Tailwind CSS, and shadcn/ui
-- **Easy Customization**: Well-organized code structure with minimal effort required
-- **Animations**: Subtle animations for engaging user experience
-- **Analytics Integration**: Ready for Google Analytics tracking
-- **Contact Form**: Functional contact form with validation
-- **Open Source**: Free to use and modify for your personal portfolio
-
-## 🚀 Demo
-
-View the live demo at [https://nbarkiya.xyz/](https://nbarkiya.xyz)
-
-https://github.com/namanbarkiya/minimal-next-portfolio/assets/82203888/f93bf5ca-c2bd-4fe5-a413-1050ebf6cf78
-
-## Ranks #1 on AI Search (top-notch AEO/GEO)
-
-https://github.com/user-attachments/assets/fc071310-9d1c-4832-877f-23f9569893d7
-
-## 🛠️ Tech Stack
-
-- **Framework**: [Next.js 16](https://nextjs.org/) with Turbopack
-- **Language**: [TypeScript](https://www.typescriptlang.org/)
-- **UI Library**: [React 19](https://react.dev/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/) + [shadcn/ui](https://ui.shadcn.com/)
-- **Animations**: [Framer Motion](https://www.framer.com/motion/)
-- **Form Handling**: Server actions with validation
-- **Analytics**: Google Analytics + Vercel Analytics
-- **Deployment**: [Vercel](https://vercel.com)
-
-## 🔧 Getting Started
-
-To get started with your own portfolio website:
-
-1. Clone this repository:
-
-   ```bash
-   git clone https://github.com/namanbarkiya/minimal-next-portfolio.git my-portfolio
-   cd my-portfolio
-   ```
-
-2. Copy the contents of `.env.copy` to a new `.env` file and fill in the required information.
-
-3. Install dependencies:
-
-   ```bash
-   npm install
-   # or
-   yarn install
-   # or
-   pnpm install
-   ```
-
-4. Start the development server:
-
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   # or
-   pnpm dev
-   ```
-
-5. Open [http://localhost:3000](http://localhost:3000) in your web browser to see the website.
-
-## 🎨 Customization
-
-Easily personalize your portfolio using the configuration files below:
-
-| Section            | How to Customize                                       | File Location             |
-| ------------------ | ------------------------------------------------------ | ------------------------- |
-| **Personal Info**  | Edit your name, bio, and social links                  | `config/site.ts`          |
-| **Skills**         | Add or modify the technologies and skills you showcase | `config/skills.ts`        |
-| **Projects**       | Highlight your technical projects                      | `config/projects.ts`      |
-| **Experience**     | Add your work and professional experience              | `config/experience.ts`    |
-| **Contributions**  | Display open-source/community contributions            | `config/contributions.ts` |
-| **Colors & Theme** | Customize color palette and themes                     | `tailwind.config.js`      |
-
-All configuration files are well-organized and documented for a smooth customization process.
-
-## 🌟 Features In Detail
-
-### Professional Experience Timeline
-
-An interactive, animated timeline that showcases your career journey with expandable sections for details about each position and company.
-
-### Project Showcase
-
-Display your technical projects with detailed information, technologies used, live demo links, and comprehensive project descriptions.
-
-### Skills Showcase
-
-Visually represent your technical and soft skills with customizable ratings and categories.
-
-### Contact Form Integration
-
-A ready-to-use contact form that can connect to various backend services.
-
-### SEO Optimization
-
-Built-in SEO features with proper meta tags, structured data, and semantic HTML.
-
-## 📱 Performance and Responsiveness
-
-![best-portfolio-website-score](https://github.com/namanbarkiya/minimal-next-portfolio/assets/82203888/3fb9c94d-9d99-4e98-92ea-14aadc91b568)
-![100-score-vercel](https://github.com/namanbarkiya/minimal-next-portfolio/assets/82203888/7cfe28cc-b619-4199-9dab-1cf16723b86d)
-
-This template is optimized for:
-
-- 100% Lighthouse score
-- Excellent Core Web Vitals metrics
-- Responsive design across all device sizes
-- Fast loading times with proper image optimization
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🙏 Acknowledgements
-
-- Design inspired by modern portfolio best practices
-- Built by [Naman Barkiya](https://github.com/namanbarkiya)
-- Icons from [Lucide](https://lucide.dev/)
-
-## 💻 Deploy on Vercel
-
-The easiest way to deploy your portfolio is using [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme), the platform from the creators of Next.js.
-
-Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-## 🌟 Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=namanbarkiya/minimal-next-portfolio&type=Date)](https://star-history.com/#namanbarkiya/minimal-next-portfolio&Date)
+> **Aspiring Software QA Engineer | Backend Developer**  
+> Jawalakhel-5, Lalitpur, Bagmati Province, Nepal  
+> 🌐 [Portfolio](https://sandeepmaharjan95.com.np/) • 💼 [LinkedIn](https://linkedin.com/in/sandip-maharjan) • 🐙 [GitHub](https://github.com/sandip95-web) • 📄 [Resume](https://drive.google.com/file/d/1Huuh9RPEJhS6HsEB3XzEmpv1nF30UMB5/view?usp=sharing)
 
 ---
 
-**Built with ❤️ by [Naman Barkiya](https://github.com/namanbarkiya)**
+## 📌 About Me
+
+Backend Developer with 2+ years of professional experience building backend systems, RESTful APIs, and production web applications using **Node.js, Express, TypeScript, and MongoDB**. Experienced in authentication (JWT, RBAC), database modeling, reporting, and backend performance optimization, with frontend knowledge in **React and Next.js**. Actively training and expanding into **Software QA Engineer** roles with competencies in manual testing, API testing with Postman, test case design, and automated testing fundamentals (Cypress, Selenium).
+
+---
+
+## ✨ Features
+
+- **Personalized Project Showcase**: Detailed breakdowns and live previews of production applications:
+  - **[Gripas Tech CRM](https://crm.gripastech.com/)**: Enterprise CRM with pipeline stages, BullMQ queues, Redis, and sales analytics.
+  - **[Caregiver Academia](https://caregiveracademia.com/)**: Care home compliance CRM with role-based access control and fee management.
+  - **[Tiya App](https://tiyaapp.com/)**: Digital billing and inventory management system for cafes.
+  - **[Silver6](https://silver6nepal.com/)**: Jewelry and accessories e-commerce platform.
+- **Native AI Portfolio Assistant**: Built-in chatbot powered by Google Gemini 1.5/2.0 Flash that answers recruiter questions using verified resume facts.
+- **Direct Contact Form**: Sends messages directly to Sandeep's Gmail via secure SMTP with one-click reply-to support.
+- **Experience Timeline**: Career history at Gripas Marketing and AGI InfoTech.
+- **Skills & Education**: Technical competencies, academic history (B.Sc. CSIT from Academia International College), and QA certification.
+- **Multi-Theme Support**: Dark, Light, Cyberpunk, Retro, Aurora, Paper, and Synthwave themes.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js 16](https://nextjs.org/) (Turbopack, App Router)
+- **UI & Styling**: [React 19](https://react.dev/), [Tailwind CSS](https://tailwindcss.com/), [Framer Motion](https://www.framer.com/motion/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **AI Integration**: Google Gemini API
+- **Email Delivery**: Nodemailer (Gmail SMTP)
+- **Package Manager**: [pnpm](https://pnpm.io/)
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository:
+```bash
+git clone https://github.com/sandip95-web/sandip_portfolio.git
+cd sandip_portfolio
+```
+
+### 2. Install dependencies:
+```bash
+pnpm install
+```
+
+### 3. Configure environment variables:
+Copy `.env.copy` to `.env.local` and configure your credentials:
+```bash
+cp .env.copy .env.local
+```
+
+```env
+# Contact Form (Gmail App Password)
+SMTP_EMAIL=sandipmaharjan95@gmail.com
+SMTP_PASSWORD=your_google_app_password
+
+# Google Gemini AI Key
+GEMINI_API_KEY=AIzaSy_your_free_key
+
+# Resume Link
+NEXT_PUBLIC_RESUME_LINK=https://drive.google.com/file/d/1Huuh9RPEJhS6HsEB3XzEmpv1nF30UMB5/view?usp=sharing
+```
+
+### 4. Run the development server:
+```bash
+pnpm dev
+```
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## 📬 Contact
+
+- **Email**: [sandipmaharjan95@gmail.com](mailto:sandipmaharjan95@gmail.com)
+- **Phone**: [+977-9818504980](tel:+9779818504980)
+- **LinkedIn**: [linkedin.com/in/sandip-maharjan](https://linkedin.com/in/sandip-maharjan)
+- **GitHub**: [github.com/sandip95-web](https://github.com/sandip95-web)
+- **Website**: [sandeepmaharjan95.com.np](https://sandeepmaharjan95.com.np/)

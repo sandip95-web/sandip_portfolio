@@ -2,10 +2,10 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Naman Barkiya | Applied AI Engineer",
-    short_name: "Naman Barkiya",
+    name: "Sandeep Maharjan | Aspiring Software QA Engineer & Backend Developer",
+    short_name: "Sandeep Maharjan",
     description:
-      "Naman Barkiya - Applied AI Engineer working at the intersection of AI, data, and scalable software systems.",
+      "Sandeep Maharjan - Aspiring Software QA Engineer & Backend Developer with 2+ years of experience in Node.js, Express, TypeScript, and MongoDB.",
     start_url: "/",
     display: "standalone",
     background_color: "#ffffff",
@@ -25,10 +25,10 @@ export default function manifest(): MetadataRoute.Manifest {
     ],
     categories: [
       "portfolio",
-      "ai",
-      "software engineering",
-      "machine learning",
-      "developer",
+      "qa",
+      "software testing",
+      "backend developer",
+      "nodejs",
       "web development",
     ],
     lang: "en",

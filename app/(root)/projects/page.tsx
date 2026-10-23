@@ -20,7 +20,7 @@ const renderContent = (tabVal: string) => {
   }
 
   return (
-    <div className="mx-auto my-4 grid justify-center gap-4 sm:grid-cols-2 lg:grid-cols-3 static items-stretch">
+    <div className="mx-auto my-6 grid justify-center gap-6 md:grid-cols-2 max-w-5xl static items-stretch">
       {projectArr.map((project) => (
         <ProjectCard project={project} key={project.id} />
       ))}

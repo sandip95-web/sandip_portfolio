@@ -1,55 +1,99 @@
 "use client";
 
 import { buttonVariants } from "@/components/ui/button";
-import { Card, CardContent, CardFooter } from "@/components/ui/card";
+import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
+import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
-import { ExternalLink, Github, Heart } from "lucide-react";
+import { Globe, Mail, MapPin, Phone, UserCheck } from "lucide-react";
 import Link from "next/link";
-import { useState } from "react";
 
 export default function GithubRedirectCard() {
-  const [isHovered, setIsHovered] = useState(false);
-
   return (
-    <Card
-      className="w-full h-fit max-w-sm overflow-hidden shadow-lg transition-all duration-300 ease-in-out transform hover:scale-102 mt-5"
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-    >
-      <CardContent className="p-8 flex flex-col items-center text-center">
-        <div className="mb-6">
-          <Heart
-            className={`w-12 h-12 transition-colors duration-300 ease-out ${
-              isHovered ? "text-red-500" : "text-muted-foreground"
-            }`}
-          />
+    <Card className="w-full h-fit max-w-md overflow-hidden shadow-lg border border-border mt-5 bg-card">
+      <CardHeader className="pb-3 border-b">
+        <div className="flex items-center gap-3">
+          <div className="p-2.5 rounded-full bg-primary/10 text-primary">
+            <UserCheck className="w-6 h-6" />
+          </div>
+          <div>
+            <h2 className="font-heading text-xl font-bold leading-tight">
+              Get in Touch
+            </h2>
+            <p className="text-xs text-muted-foreground">
+              Open to QA & Backend opportunities
+            </p>
+          </div>
         </div>
-        <h2 className="font-heading text-xl tracking-tight lg:text-3xl duration-300">
-          Like this template?
-        </h2>
-        <p className="mt-2 mb-10 font-heading text-lg text-muted-foreground">
-          It&#39;s open source. Explore and contribute on GitHub.
-        </p>
-        <Github className="w-10 h-10 text-muted-foreground mb-5" />
+      </CardHeader>
+      <CardContent className="p-6 space-y-4 text-sm">
+        <div className="flex items-start gap-3">
+          <MapPin className="w-5 h-5 text-muted-foreground shrink-0 mt-0.5" />
+          <div>
+            <p className="font-medium text-foreground">Location</p>
+            <p className="text-muted-foreground text-xs leading-relaxed">
+              Jawalakhel-5, Lalitpur, Bagmati Province, Nepal
+            </p>
+          </div>
+        </div>
+
+        <div className="flex items-start gap-3">
+          <Phone className="w-5 h-5 text-muted-foreground shrink-0 mt-0.5" />
+          <div>
+            <p className="font-medium text-foreground">Phone</p>
+            <a
+              href="tel:+9779818504980"
+              className="text-primary hover:underline text-xs"
+            >
+              +977-9818504980
+            </a>
+          </div>
+        </div>
+
+        <div className="flex items-start gap-3">
+          <Mail className="w-5 h-5 text-muted-foreground shrink-0 mt-0.5" />
+          <div>
+            <p className="font-medium text-foreground">Email</p>
+            <a
+              href="mailto:sandipmaharjan95@gmail.com"
+              className="text-primary hover:underline text-xs"
+            >
+              sandipmaharjan95@gmail.com
+            </a>
+          </div>
+        </div>
+
+        <div className="flex items-start gap-3">
+          <Globe className="w-5 h-5 text-muted-foreground shrink-0 mt-0.5" />
+          <div>
+            <p className="font-medium text-foreground">Languages</p>
+            <p className="text-muted-foreground text-xs">
+              Nepali (Fluent) • English (Fluent) • Hindi (Intermediate)
+            </p>
+          </div>
+        </div>
       </CardContent>
-      <CardFooter className="px-8 pb-8 pt-0">
+      <CardFooter className="px-6 pb-6 pt-0 flex flex-col gap-2">
         <Link
-          href={"https://github.com/namanbarkiya/minimal-next-portfolio"}
+          href={siteConfig.links.linkedin}
+          target="_blank"
+          className={cn(
+            buttonVariants({ variant: "default" }),
+            "w-full justify-center text-sm"
+          )}
+        >
+          Connect on LinkedIn
+        </Link>
+        <Link
+          href={siteConfig.links.github}
           target="_blank"
           className={cn(
             buttonVariants({ variant: "outline" }),
-            "w-full bg-transparent border-2 transition-all duration-300 py-6"
+            "w-full justify-center text-sm"
           )}
         >
-          <span className="mr-2">Source Code</span>
-          <ExternalLink className="w-5 h-5" />
+          View GitHub Profile
         </Link>
       </CardFooter>
-      <div
-        className={`h-1 bg-gradient-to-r from-red-500 to-red-500 transition-all duration-300 ease-out ${
-          isHovered ? "opacity-100" : "opacity-0"
-        }`}
-      ></div>
     </Card>
   );
 }

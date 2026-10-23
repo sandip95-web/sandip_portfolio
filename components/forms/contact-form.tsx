@@ -18,6 +18,10 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useModalStore } from "@/hooks/use-modal-store";
 
+import { Loader2 } from "lucide-react";
+import { useState } from "react";
+import { useToast } from "@/components/ui/use-toast";
+
 const formSchema = z.object({
   name: z.string().min(3, {
     message: "Name must contain at least 3 characters.",
@@ -31,8 +35,8 @@ const formSchema = z.object({
 
 export function ContactForm() {
   const storeModal = useModalStore();
-
-  // const [open, setOpen] = useState(false);
+  const { toast } = useToast();
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -46,6 +50,7 @@ export function ContactForm() {
 
   // 2. Define a submit handler.
   async function onSubmit(values: z.infer<typeof formSchema>) {
+    setIsSubmitting(true);
     try {
       const response = await fetch("/api/contact", {
         method: "POST",
@@ -55,18 +60,30 @@ export function ContactForm() {
         body: JSON.stringify(values),
       });
 
+      if (!response.ok) {
+        const errorData = await response.json().catch(() => ({}));
+        throw new Error(errorData.error || "Failed to send message.");
+      }
+
       form.reset();
 
-      if (response.status === 200) {
-        storeModal.onOpen({
-          title: "Thankyou!",
-          description:
-            "Your message has been received! I appreciate your contact and will get back to you shortly.",
-          icon: Icons.successAnimated,
-        });
-      }
-    } catch (err) {
-      console.log("Err!", err);
+      storeModal.onOpen({
+        title: "Thank You!",
+        description:
+          "Your message has been sent directly to Sandeep's email! He will get back to you shortly.",
+        icon: Icons.successAnimated,
+      });
+    } catch (err: any) {
+      console.error("Contact form error:", err);
+      toast({
+        title: "Failed to send message",
+        description:
+          err?.message ||
+          "Could not send email. Please contact sandipmaharjan95@gmail.com directly.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
     }
   }
 
@@ -134,7 +151,16 @@ export function ContactForm() {
             </FormItem>
           )}
         />
-        <Button type="submit">Submit</Button>
+        <Button type="submit" disabled={isSubmitting}>
+          {isSubmitting ? (
+            <>
+              <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+              Sending...
+            </>
+          ) : (
+            "Send Message"
+          )}
+        </Button>
       </form>
     </Form>
   );

@@ -56,11 +56,22 @@ export type ValidSkills =
   | "Flutter"
   | "Dart"
   | "Flask"
-  | "Django"
-  | "FastAPI"
   | "SQL"
   | "NoSQL"
-  | "Framer Motion";
+  | "Framer Motion"
+  | "C"
+  | "BullMQ"
+  | "Mongoose"
+  | "Zod"
+  | "REST APIs"
+  | "GitHub"
+  | "GitLab"
+  | "Jira"
+  | "Manual Testing"
+  | "SDLC"
+  | "Test Scenarios & Cases"
+  | "Test Plans"
+  | "Requirement Analysis";
 
 export type ValidCategory =
   | "Full Stack"
@@ -69,7 +80,8 @@ export type ValidCategory =
   | "UI/UX"
   | "Web Dev"
   | "Mobile Dev"
-  | "3D Modeling";
+  | "3D Modeling"
+  | "QA & Testing";
 
 export type ValidExpType = "Personal" | "Professional";
 
@@ -81,4 +93,5 @@ export type ValidPages =
   | "contact"
   | "contributions"
   | "resume"
-  | "blogs";
+  | "blogs"
+  | "education";

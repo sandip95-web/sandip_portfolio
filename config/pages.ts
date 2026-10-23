@@ -15,35 +15,53 @@ type PagesConfig = {
 export const pagesConfig: PagesConfig = {
   home: {
     title: "Home",
-    description: "Welcome to my portfolio website.",
+    description: "Welcome to Sandeep Maharjan's portfolio website.",
     metadata: {
       title: "Home",
-      description: "Naman Barkiya's portfolio website.",
+      description: "Sandeep Maharjan - Aspiring Software QA Engineer & Backend Developer.",
     },
   },
   skills: {
     title: "Skills",
-    description: "Key skills that define my professional identity.",
+    description: "Technical skills across Backend, QA & Testing, Databases, and APIs.",
     metadata: {
       title: "Skills",
       description:
-        "Naman Barkiya's key skills that define his professional identity.",
+        "Sandeep Maharjan's technical skills across Backend, QA & Testing, Databases, and APIs.",
     },
   },
   projects: {
     title: "Projects",
-    description: "Showcasing impactful projects and technical achievements.",
+    description: "Showcasing production backend systems, CRM architectures, and web platforms.",
     metadata: {
       title: "Projects",
-      description: "Naman Barkiya's projects in building web applications.",
+      description: "Sandeep Maharjan's production backend and web application projects.",
+    },
+  },
+  experience: {
+    title: "Experience",
+    description: "Professional journey, production achievements, and work timeline.",
+    metadata: {
+      title: "Experience",
+      description:
+        "Sandeep Maharjan's professional journey and experience timeline.",
+    },
+  },
+  education: {
+    title: "Education & Certifications",
+    description: "Academic qualifications, QA training, and certified achievements.",
+    metadata: {
+      title: "Education & Certifications",
+      description:
+        "Sandeep Maharjan's academic degrees, software QA training, and certifications.",
     },
   },
   contact: {
     title: "Contact",
-    description: "Let's connect and explore collaborations.",
+    description: "Let's connect — open to Software QA and Backend Developer opportunities.",
     metadata: {
       title: "Contact",
-      description: "Contact Naman Barkiya.",
+      description: "Contact Sandeep Maharjan.",
     },
   },
   contributions: {
@@ -51,35 +69,23 @@ export const pagesConfig: PagesConfig = {
     description: "Open-source contributions and community involvement.",
     metadata: {
       title: "Contributions",
-      description:
-        "Naman Barkiya's open-source contributions and community involvement.",
+      description: "Sandeep Maharjan's contributions.",
     },
   },
   resume: {
     title: "Resume",
-    description: "Naman Barkiya's resume.",
+    description: "Sandeep Maharjan's resume.",
     metadata: {
       title: "Resume",
-      description: "Naman Barkiya's resume.",
+      description: "Sandeep Maharjan's resume.",
     },
   },
   blogs: {
     title: "Blogs",
-    description:
-      "Thoughts on AI, software engineering, and building in public.",
+    description: "Technical writings and engineering notes.",
     metadata: {
       title: "Blogs",
-      description:
-        "Naman Barkiya's blog — thoughts on AI, software engineering, and building in public.",
-    },
-  },
-  experience: {
-    title: "Experience",
-    description: "Professional journey and career timeline.",
-    metadata: {
-      title: "Experience",
-      description:
-        "Naman Barkiya's professional journey and experience timeline.",
+      description: "Sandeep Maharjan's blog.",
     },
   },
 };
