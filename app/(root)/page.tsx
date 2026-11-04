@@ -9,20 +9,19 @@ import { ClientPageWrapper } from "@/components/common/client-page-wrapper";
 import { Icons } from "@/components/common/icons";
 import EducationSection from "@/components/education/education-card";
 import ExperienceCard from "@/components/experience/experience-card";
-import ProjectCard from "@/components/projects/project-card";
-import SkillsCard from "@/components/skills/skills-card";
+import FeaturedProjectTabs from "@/components/projects/featured-project-tabs";
+import FeaturedSkillTabs from "@/components/skills/featured-skill-tabs";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { experiences } from "@/config/experience";
 import { pagesConfig } from "@/config/pages";
 import { featuredProjects } from "@/config/projects";
 import { siteConfig } from "@/config/site";
-import { featuredSkills } from "@/config/skills";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: `${pagesConfig.home.metadata.title} | ${siteConfig.authorName}`,
   description:
-    "Sandeep Maharjan - Aspiring Software QA Engineer & Backend Developer with 2+ years of experience in Node.js, Express, TypeScript, and MongoDB. Explore my projects, experience, and skills.",
+    "Sandeep Maharjan - Software QA Engineer, Automation Tester & Backend Developer with 2+ years of experience in Node.js, Express, TypeScript, MongoDB, manual testing, API testing, JMeter, and Playwright automation.",
   alternates: {
     canonical: siteConfig.url,
   },
@@ -35,7 +34,7 @@ export default function IndexPage() {
     name: siteConfig.authorName,
     url: siteConfig.url,
     image: `${siteConfig.url}/profile.png`,
-    jobTitle: "Aspiring Software QA Engineer | Backend Developer",
+    jobTitle: "Software QA & Automation Testing | Backend Developer",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Lalitpur",
@@ -58,8 +57,8 @@ export default function IndexPage() {
       />
 
       {/* Hero Section */}
-      <section className="space-y-6 pb-8 pt-6 mb-0 md:pb-12 md:py-20 lg:py-28 min-h-[90vh] flex items-center">
-        <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center -mt-10">
+      <section className="space-y-6 pb-8 pt-6 mb-0 md:pb-12 md:py-20 lg:py-24 min-h-[90vh] flex items-center">
+        <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center -mt-6">
           <Image
             src="/profile.png"
             height={160}
@@ -78,25 +77,59 @@ export default function IndexPage() {
           <AnimatedText
             as="h3"
             delay={0.4}
-            className="font-heading text-base sm:text-xl md:text-xl lg:text-2xl text-primary font-medium"
+            className="font-heading text-base sm:text-xl md:text-2xl text-primary font-semibold"
           >
-            Aspiring Software QA Engineer | Backend Developer
+            Software QA &amp; Automation Testing | Backend Developer
           </AnimatedText>
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-muted text-muted-foreground text-xs font-medium">
-            <span>Jawalakhel-5, Lalitpur, Nepal</span>
+
+          {/* Quick Info Badges */}
+          <div className="flex flex-wrap items-center justify-center gap-2 text-xs font-medium text-muted-foreground">
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-muted">
+              <span>📍 Jawalakhel-5, Lalitpur, Nepal</span>
+            </span>
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-muted">
+              <span>📞 +977-9818504980</span>
+            </span>
+            <a
+              href="mailto:sandipmaharjan95@gmail.com"
+              className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-muted hover:text-foreground transition-colors"
+            >
+              <span>✉️ sandipmaharjan95@gmail.com</span>
+            </a>
           </div>
-          <div className="mt-2 max-w-[46rem] text-center">
+
+          {/* Core Strengths Chips */}
+          <div className="flex flex-wrap items-center justify-center gap-2 pt-1">
+            <span className="px-2.5 py-1 rounded-md text-xs font-medium bg-primary/10 text-primary border border-primary/20">
+              Playwright &amp; TypeScript Automation
+            </span>
+            <span className="px-2.5 py-1 rounded-md text-xs font-medium bg-primary/10 text-primary border border-primary/20">
+              Manual Testing, Test Plans &amp; RTM
+            </span>
+            <span className="px-2.5 py-1 rounded-md text-xs font-medium bg-primary/10 text-primary border border-primary/20">
+              REST API &amp; JMeter Performance Testing
+            </span>
+            <span className="px-2.5 py-1 rounded-md text-xs font-medium bg-primary/10 text-primary border border-primary/20">
+              2+ Yrs Node.js, Express &amp; MongoDB
+            </span>
+          </div>
+
+          <div className="mt-2 max-w-[50rem] text-center">
             <p className="leading-relaxed text-muted-foreground text-sm sm:text-base">
-              Backend Developer with 2+ years of professional experience
-              building backend systems, RESTful APIs, and production web
-              applications using Node.js, Express, TypeScript, and MongoDB.
-              Experienced in authentication, database modeling, reporting, and
-              backend performance optimization. Currently undergoing Software QA
-              and Manual Testing training at Techaxis.
+              Software QA professional with a strong backend engineering
+              foundation (2+ years in Node.js, Express.js, TypeScript, and
+              MongoDB). Software QA training at TechAxis with hands-on practice in
+              manual testing, test planning, test case design, requirements
+              traceability (RTM), defect reporting in Jira, API testing,
+              performance testing with Apache JMeter, and test automation with
+              Playwright and TypeScript. Brings a developer’s understanding of how
+              APIs, databases, and business logic behave to design thorough test
+              scenarios, find root causes faster, and communicate clearly with
+              engineering teams.
             </p>
           </div>
 
-          <div className="flex flex-col mt-6 items-center justify-center sm:flex-row sm:space-x-4 gap-3">
+          <div className="flex flex-col mt-4 items-center justify-center sm:flex-row sm:space-x-4 gap-3">
             <AnimatedText delay={0.6}>
               <Link
                 href={"/resume"}
@@ -123,12 +156,12 @@ export default function IndexPage() {
             </AnimatedText>
           </div>
           <AnimatedText delay={1.2}>
-            <Icons.chevronDown className="h-6 w-6 mt-8 opacity-70 animate-bounce" />
+            <Icons.chevronDown className="h-6 w-6 mt-6 opacity-70 animate-bounce" />
           </AnimatedText>
         </div>
       </section>
 
-      {/* Projects Section */}
+      {/* Projects Section with Interactive Category Tabs */}
       <AnimatedSection
         direction="up"
         className="container space-y-6 bg-muted py-10 my-14 rounded-2xl"
@@ -146,23 +179,10 @@ export default function IndexPage() {
             delay={0.2}
             className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7"
           >
-            {pagesConfig.projects.description}
+            Filter between QA automation suites and backend production platforms.
           </AnimatedText>
         </div>
-        <div className="w-full">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto w-full items-stretch">
-            {featuredProjects.map((project, index) => (
-              <AnimatedSection
-                key={project.id}
-                delay={0.1 * (index + 1)}
-                direction="up"
-                className="h-full w-full min-w-0"
-              >
-                <ProjectCard project={project} />
-              </AnimatedSection>
-            ))}
-          </div>
-        </div>
+        <FeaturedProjectTabs projects={featuredProjects} />
         <AnimatedText delay={0.4} className="flex justify-center">
           <Link href="/projects">
             <Button variant={"outline"} className="rounded-xl">
@@ -214,7 +234,7 @@ export default function IndexPage() {
         </AnimatedText>
       </AnimatedSection>
 
-      {/* Education & Achievements Section */}
+      {/* Education, Certifications & Mentor References Section */}
       <AnimatedSection
         direction="up"
         className="container space-y-6 bg-muted py-10 my-14 rounded-2xl"
@@ -240,7 +260,7 @@ export default function IndexPage() {
         </div>
       </AnimatedSection>
 
-      {/* Skills Section */}
+      {/* Skills Section with Interactive Tabs */}
       <AnimatedSection
         direction="up"
         className="container space-y-6 py-10 my-14"
@@ -258,10 +278,10 @@ export default function IndexPage() {
             delay={0.2}
             className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7"
           >
-            {pagesConfig.skills.description}
+            Explore technical expertise across QA Automation, STLC, Backend, and Databases.
           </AnimatedText>
         </div>
-        <SkillsCard skills={featuredSkills} />
+        <FeaturedSkillTabs />
         <AnimatedText delay={0.4} className="flex justify-center">
           <Link href="/skills">
             <Button variant={"outline"} className="rounded-xl">

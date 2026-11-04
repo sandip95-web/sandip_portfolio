@@ -8,7 +8,6 @@ type PagesConfig = {
       title: string;
       description: string;
     };
-    // featuredDescription: string;
   };
 };
 
@@ -18,50 +17,58 @@ export const pagesConfig: PagesConfig = {
     description: "Welcome to Sandeep Maharjan's portfolio website.",
     metadata: {
       title: "Home",
-      description: "Sandeep Maharjan - Aspiring Software QA Engineer & Backend Developer.",
+      description:
+        "Sandeep Maharjan - Software QA Engineer, Automation Tester & Backend Developer.",
     },
   },
   skills: {
     title: "Skills",
-    description: "Technical skills across Backend, QA & Testing, Databases, and APIs.",
+    description:
+      "Technical competencies across Software QA, Test Automation, Manual Testing, Backend Engineering, Databases, and APIs.",
     metadata: {
       title: "Skills",
       description:
-        "Sandeep Maharjan's technical skills across Backend, QA & Testing, Databases, and APIs.",
+        "Sandeep Maharjan's technical skills across Playwright, JMeter, Manual Testing, Node.js, TypeScript, and MongoDB.",
     },
   },
   projects: {
     title: "Projects",
-    description: "Showcasing production backend systems, CRM architectures, and web platforms.",
+    description:
+      "Showcasing QA automation suites, manual test documentation, production backend systems, and web platforms.",
     metadata: {
       title: "Projects",
-      description: "Sandeep Maharjan's production backend and web application projects.",
+      description:
+        "Sandeep Maharjan's QA automation test suites, manual testing documentation, and production backend projects.",
     },
   },
   experience: {
     title: "Experience",
-    description: "Professional journey, production achievements, and work timeline.",
+    description:
+      "Professional engineering journey, production backend systems, load testing, and performance optimization.",
     metadata: {
       title: "Experience",
       description:
-        "Sandeep Maharjan's professional journey and experience timeline.",
+        "Sandeep Maharjan's professional journey, backend achievements, and experience timeline.",
     },
   },
   education: {
-    title: "Education & Certifications",
-    description: "Academic qualifications, QA training, and certified achievements.",
+    title: "Education, Certifications & References",
+    description:
+      "Academic degree in CSIT, TechAxis Software QA training, certifications, and industry mentor reference.",
     metadata: {
-      title: "Education & Certifications",
+      title: "Education, Certifications & References",
       description:
-        "Sandeep Maharjan's academic degrees, software QA training, and certifications.",
+        "Sandeep Maharjan's academic qualifications, TechAxis QA training, achievements, and QA mentor reference from Cedar Gate Technologies.",
     },
   },
   contact: {
     title: "Contact",
-    description: "Let's connect — open to Software QA and Backend Developer opportunities.",
+    description:
+      "Let's connect — open to Software QA, Automation Testing, and Backend Developer opportunities.",
     metadata: {
       title: "Contact",
-      description: "Contact Sandeep Maharjan.",
+      description:
+        "Contact Sandeep Maharjan for Software QA and Backend Developer opportunities.",
     },
   },
   contributions: {
@@ -74,7 +81,8 @@ export const pagesConfig: PagesConfig = {
   },
   resume: {
     title: "Resume",
-    description: "Sandeep Maharjan's resume.",
+    description:
+      "Sandeep Maharjan's resume — Software QA & Automation Testing | Backend Developer.",
     metadata: {
       title: "Resume",
       description: "Sandeep Maharjan's resume.",

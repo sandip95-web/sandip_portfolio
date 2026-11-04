@@ -29,12 +29,65 @@ export interface ProjectInterface {
 
 export const Projects: ProjectInterface[] = [
   {
+    id: "opencart-qa-automation",
+    companyName: "OpenCart — QA & Automation Testing",
+    type: "Personal",
+    category: ["QA & Testing", "Web Dev"],
+    shortDescription:
+      "Comprehensive QA project featuring manual test planning, test cases, and RTM in Google Sheets, alongside automated functional test suites built with Playwright, TypeScript, and Page Object Model (POM).",
+    githubLink: "https://github.com/sandip95-web/opencart-qa-automation",
+    techStack: [
+      "Playwright",
+      "Typescript",
+      "Manual Testing",
+      "Test Plans",
+      "Test Scenarios & Cases",
+      "RTM",
+      "Google Sheets",
+      "Jira",
+    ],
+    startDate: new Date("2024-09-01"),
+    endDate: new Date("2024-11-30"),
+    companyLogoImg: "/opencart.svg",
+    pagesInfoArr: [
+      {
+        title: "Test Documentation & RTM",
+        description:
+          "Authored comprehensive manual test documentation including Test Strategy, Test Cases, and Requirements Traceability Matrix (RTM) tracking functional coverage.",
+        imgArr: ["/opencart.svg"],
+      },
+      {
+        title: "Playwright Automation Suite",
+        description:
+          "Modular automation framework built with TypeScript adhering to the Page Object Model (POM) pattern for maintainable end-to-end tests.",
+        imgArr: ["/opencart.svg"],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        "OpenCart QA & Automation Testing is an end-to-end quality assurance project developed during specialized Software QA training at TechAxis, focusing on comprehensive manual and automated validation of e-commerce workflows.",
+        "Authored thorough manual test documentation covering Test Plans, Test Scenarios, detailed Test Cases with pre-conditions and expected results, and a complete Requirements Traceability Matrix (RTM) organized in Google Sheets.",
+        "Conducted in-depth functional testing across critical user journeys including user registration, product search, cart operations, checkout flows, and account management using Equivalence Partitioning and Boundary Value Analysis.",
+        "Built automated regression and functional test suites using Playwright and TypeScript architected with a strict Page Object Model (POM) structure for maximum reusability, test isolation, and maintainability.",
+        "Organized reusable page objects, dynamic test fixtures, test data sets, assertions, and documented test execution results.",
+      ],
+      bullets: [
+        "Authored comprehensive manual test documentation: Test Plan, Test Scenarios, Test Cases, and RTM.",
+        "Executed manual functional testing on user registration, shopping cart, checkout, and search workflows.",
+        "Applied Black Box test design techniques including Boundary Value Analysis and Equivalence Partitioning.",
+        "Built automated functional and regression test suites using Playwright and TypeScript with Page Object Model (POM).",
+        "Structured reusable page components, parameterized test data, and documented test execution results.",
+        "Tracked defect lifecycles, bug reporting, and severity/priority triage using Jira.",
+      ],
+    },
+  },
+  {
     id: "gripas-tech-crm",
     companyName: "Gripas Tech CRM",
     type: "Professional",
     category: ["Backend", "Full Stack"],
     shortDescription:
-      "Enterprise CRM backend featuring automated lead pools, pipeline stage actions, client/project directories, and dynamic reporting powered by Redis and BullMQ.",
+      "Enterprise CRM backend featuring automated lead pools, pipeline stage actions, client/project directories, and dynamic reporting powered by Redis and BullMQ with load testing for bottleneck resolution.",
     websiteLink: "https://crm.gripastech.com/",
     techStack: [
       "Node.js",
@@ -44,6 +97,7 @@ export const Projects: ProjectInterface[] = [
       "Redis",
       "BullMQ",
       "REST APIs",
+      "Performance Testing",
     ],
     startDate: new Date("2024-12-01"),
     endDate: new Date("2026-09-30"),
@@ -72,59 +126,12 @@ export const Projects: ProjectInterface[] = [
     },
   },
   {
-    id: "caregiver-academia",
-    companyName: "Caregiver Academia",
-    type: "Professional",
-    category: ["Backend", "Full Stack"],
-    shortDescription:
-      "Caregiver CRM & Compliance Management System with role-based access (SUPER_ADMIN, RECEPTIONIST, COUNSELOR), fee management, and automated background jobs.",
-    websiteLink: "https://caregiveracademia.com/",
-    techStack: [
-      "Node.js",
-      "Typescript",
-      "express.js",
-      "MongoDB",
-      "Mongoose",
-      "REST APIs",
-    ],
-    startDate: new Date("2024-06-01"),
-    endDate: new Date("2024-11-30"),
-    companyLogoImg: "/caregiver.webp",
-    pagesInfoArr: [
-      {
-        title: "Caregiver CRM & Compliance",
-        description:
-          "Care Home Compliance Management System with automated fee processing and RBAC.",
-        imgArr: ["/caregiver.webp"],
-      },
-    ],
-    descriptionDetails: {
-      paragraphs: [
-        "Caregiver Academia is a Caregiver CRM and Care Home Compliance Management System engineered for operational efficiency and reliable compliance tracking.",
-        "Built backend functionality for managing CRM data, operational workflows, and business operations using Node.js, Express.js, and TypeScript.",
-        "Implemented role-based access control (RBAC) with granular authentication and authorization for users including SUPER_ADMIN, RECEPTIONIST, and COUNSELOR.",
-        "Designed and managed MongoDB schemas, document relationships, and data validation using Mongoose.",
-        "Developed fee and payment management business logic for calculating course fees, payment plans, and tracking outstanding dues.",
-        "Engineered automated background tasks and scheduled jobs for processing and tracking fee statuses and deadline alerts.",
-        "Architected the application using TypeScript with reusable middleware, schema validation, centralized error handling, and consistent API responses.",
-      ],
-      bullets: [
-        "Built backend functionality for managing CRM data and business operations using Node.js, Express, and TypeScript.",
-        "Implemented role-based access for SUPER_ADMIN, RECEPTIONIST, and COUNSELOR roles.",
-        "Designed and managed MongoDB schemas, relationships, and data validation using Mongoose.",
-        "Engineered fee and payment management modules for calculating dues and payment tracking.",
-        "Built automated background tasks and scheduled jobs for tracking outstanding fees.",
-        "Organized backend architecture with reusable middleware, validation, error handling, and uniform responses.",
-      ],
-    },
-  },
-  {
     id: "tiya-app",
     companyName: "Tiya App (Cafe Management System)",
     type: "Professional",
     category: ["Backend", "Full Stack"],
     shortDescription:
-      "Production cafe order-management and financial-tracking platform empowering cafe owners and staff with real-time billing and RBAC reporting.",
+      "Production cafe order-management and financial-tracking platform empowering cafe owners and staff with real-time billing, RBAC, and revenue reporting.",
     websiteLink: "https://tiyaapp.com/",
     techStack: [
       "Node.js",
@@ -201,6 +208,58 @@ export const Projects: ProjectInterface[] = [
       ],
     },
   },
+  {
+    id: "caregiver-academia",
+    companyName: "Caregiver Academia",
+    type: "Professional",
+    category: ["Backend", "Full Stack"],
+    shortDescription:
+      "Caregiver CRM & Compliance Management System with role-based access (SUPER_ADMIN, RECEPTIONIST, COUNSELOR), fee management, and automated background jobs.",
+    websiteLink: "https://caregiveracademia.com/",
+    techStack: [
+      "Node.js",
+      "Typescript",
+      "express.js",
+      "MongoDB",
+      "Mongoose",
+      "REST APIs",
+    ],
+    startDate: new Date("2024-06-01"),
+    endDate: new Date("2024-11-30"),
+    companyLogoImg: "/caregiver.webp",
+    pagesInfoArr: [
+      {
+        title: "Caregiver CRM & Compliance",
+        description:
+          "Care Home Compliance Management System with automated fee processing and RBAC.",
+        imgArr: ["/caregiver.webp"],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        "Caregiver Academia is a Caregiver CRM and Care Home Compliance Management System engineered for operational efficiency and reliable compliance tracking.",
+        "Built backend functionality for managing CRM data, operational workflows, and business operations using Node.js, Express.js, and TypeScript.",
+        "Implemented role-based access control (RBAC) with granular authentication and authorization for users including SUPER_ADMIN, RECEPTIONIST, and COUNSELOR.",
+        "Designed and managed MongoDB schemas, document relationships, and data validation using Mongoose.",
+        "Developed fee and payment management business logic for calculating course fees, payment plans, and tracking outstanding dues.",
+        "Engineered automated background tasks and scheduled jobs for processing and tracking fee statuses and deadline alerts.",
+        "Architected the application using TypeScript with reusable middleware, schema validation, centralized error handling, and consistent API responses.",
+      ],
+      bullets: [
+        "Built backend functionality for managing CRM data and business operations using Node.js, Express, and TypeScript.",
+        "Implemented role-based access for SUPER_ADMIN, RECEPTIONIST, and COUNSELOR roles.",
+        "Designed and managed MongoDB schemas, relationships, and data validation using Mongoose.",
+        "Engineered fee and payment management modules for calculating dues and payment tracking.",
+        "Built automated background tasks and scheduled jobs for tracking outstanding fees.",
+        "Organized backend architecture with reusable middleware, validation, error handling, and uniform responses.",
+      ],
+    },
+  },
 ];
 
-export const featuredProjects = Projects.slice(0, 4);
+export const featuredProjects = [
+  Projects.find((p) => p.id === "opencart-qa-automation")!,
+  Projects.find((p) => p.id === "gripas-tech-crm")!,
+  Projects.find((p) => p.id === "tiya-app")!,
+  Projects.find((p) => p.id === "silver6")!,
+];

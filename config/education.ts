@@ -17,6 +17,17 @@ export interface LanguageInterface {
   proficiency: string;
 }
 
+export interface ReferenceInterface {
+  name: string;
+  role: string;
+  company: string;
+  location: string;
+  phone: string;
+  email: string;
+  relationship: string;
+  description: string;
+}
+
 export const educationList: EducationInterface[] = [
   {
     degree: "B.Sc. Computer Science & IT",
@@ -41,17 +52,17 @@ export const educationList: EducationInterface[] = [
 export const achievementsList: AchievementInterface[] = [
   {
     title: "Software QA Training",
-    issuer: "Techaxis, Kumaripati, Lalitpur",
-    year: "Ongoing",
+    issuer: "TechAxis, Kumaripati, Lalitpur",
+    year: "2024",
     description:
-      "Comprehensive training in SDLC, Manual Testing, Requirement Documents, Functional Documents, Test Scenarios, Test Cases, and Test Plans.",
+      "Comprehensive training covering manual testing, test planning, test case design, requirements traceability matrix (RTM), defect reporting in Jira, REST API testing, performance testing with Apache JMeter, and test automation with Playwright and TypeScript.",
   },
   {
     title: "Mobile App Development Competition",
     issuer: "Winner",
     year: "2023",
     description:
-      "Collaborated on a Flutter/MongoDB mobile application addressing a real-world tracking challenge.",
+      "Collaborated on a Flutter/MongoDB mobile application addressing a real-world tracking problem.",
   },
   {
     title: "Graphic Design Certification",
@@ -74,5 +85,19 @@ export const languagesList: LanguageInterface[] = [
   {
     language: "Hindi",
     proficiency: "Intermediate",
+  },
+];
+
+export const referencesList: ReferenceInterface[] = [
+  {
+    name: "Sandhya Phuyal",
+    role: "Software QA Engineer",
+    company: "Cedar Gate Technologies",
+    location: "Lalitpur, Nepal",
+    phone: "+977-9869416100",
+    email: "sfuyal@gmail.com",
+    relationship: "QA Mentor — TechAxis Software QA Training",
+    description:
+      "Industry mentor and lead instructor for Software QA at TechAxis. Guided Sandeep through hands-on test planning, test case design, RTM, Jira defect workflows, API validation, Apache JMeter performance testing, and Playwright automation with TypeScript.",
   },
 ];

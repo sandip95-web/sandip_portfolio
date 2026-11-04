@@ -1,5 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  transpilePackages: [
+    "framer-motion",
+    "motion-dom",
+    "motion-utils",
+    "remark",
+    "remark-gfm",
+    "remark-html",
+    "remark-prism",
+    "gray-matter",
+  ],
   async headers() {
     return [
       {

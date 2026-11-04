@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 405" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#22c55e" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="720" height="405" fill="url(#bgGrad)" />
+
+  <!-- Subtle grid pattern -->
+  <g opacity="0.12" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="81" x2="720" y2="81" />
+    <line x1="0" y1="162" x2="720" y2="162" />
+    <line x1="0" y1="243" x2="720" y2="243" />
+    <line x1="0" y1="324" x2="720" y2="324" />
+    <line x1="120" y1="0" x2="120" y2="405" />
+    <line x1="240" y1="0" x2="240" y2="405" />
+    <line x1="360" y1="0" x2="360" y2="405" />
+    <line x1="480" y1="0" x2="480" y2="405" />
+    <line x1="600" y1="0" x2="600" y2="405" />
+  </g>
+
+  <!-- Central Card -->
+  <rect x="70" y="55" width="580" height="295" rx="16" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1.5" stroke-opacity="0.4" filter="drop-shadow(0 20px 25px rgba(0,0,0,0.5))" />
+
+  <!-- Shield QA Check Icon -->
+  <g transform="translate(105, 95)">
+    <circle cx="45" cy="45" r="45" fill="#0284c7" fill-opacity="0.2" />
+    <circle cx="45" cy="45" r="36" fill="#0369a1" fill-opacity="0.3" stroke="#38bdf8" stroke-width="2" />
+    <!-- Shield path -->
+    <path d="M45 22 L63 28 C63 46 45 58 45 62 C45 58 27 46 27 28 Z" fill="none" stroke="#22c55e" stroke-width="3" stroke-linejoin="round" />
+    <!-- Checkmark inside shield -->
+    <path d="M37 42 L42 47 L53 36" fill="none" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Title & Subtitle -->
+  <text x="215" y="125" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="28" fill="#f8fafc">
+    OpenCart E-Commerce
+  </text>
+  <text x="215" y="155" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="18" fill="#38bdf8">
+    QA &amp; Automation Testing Suite
+  </text>
+
+  <!-- Tags / Badges -->
+  <g transform="translate(105, 205)">
+    <!-- Badge 1: Playwright -->
+    <rect x="0" y="0" width="105" height="28" rx="14" fill="#22c55e" fill-opacity="0.15" stroke="#22c55e" stroke-width="1" />
+    <text x="52" y="19" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="12" fill="#4ade80">Playwright</text>
+
+    <!-- Badge 2: TypeScript -->
+    <rect x="115" y="0" width="105" height="28" rx="14" fill="#38bdf8" fill-opacity="0.15" stroke="#38bdf8" stroke-width="1" />
+    <text x="167" y="19" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="12" fill="#38bdf8">TypeScript</text>
+
+    <!-- Badge 3: POM Design -->
+    <rect x="230" y="0" width="105" height="28" rx="14" fill="#a855f7" fill-opacity="0.15" stroke="#a855f7" stroke-width="1" />
+    <text x="282" y="19" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="12" fill="#c084fc">POM Pattern</text>
+
+    <!-- Badge 4: RTM Matrix -->
+    <rect x="345" y="0" width="165" height="28" rx="14" fill="#f59e0b" fill-opacity="0.15" stroke="#f59e0b" stroke-width="1" />
+    <text x="427" y="19" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="12" fill="#fbbf24">Manual Testing &amp; RTM</text>
+  </g>
+
+  <!-- Description line -->
+  <text x="105" y="275" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#94a3b8">
+    ✓ Functional E-Commerce Testing  •  ✓ Test Plans &amp; Test Cases  •  ✓ Automated Playwright Tests
+  </text>
+  <text x="105" y="300" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#64748b">
+    github.com/sandip95-web/opencart-qa-automation
+  </text>
+</svg>
+

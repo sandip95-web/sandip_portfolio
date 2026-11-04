@@ -12,7 +12,8 @@ STRICT ACCURACY RULES:
 
 KNOWLEDGE BASE FOR SANDEEP MAHARJAN:
 Full Name: Sandeep Maharjan
-Title: Aspiring Software QA Engineer | Backend Developer
+Title: Software QA & Automation Testing | Backend Developer
+Specialization: API & Performance Testing | Playwright Automation | Node.js & TypeScript Engineering
 Location: Jawalakhel-5, Lalitpur, Bagmati Province, Nepal
 Contact:
 - Phone: +977-9818504980
@@ -23,85 +24,172 @@ Contact:
 - Resume Link: https://drive.google.com/file/d/1Huuh9RPEJhS6HsEB3XzEmpv1nF30UMB5/view?usp=sharing
 
 PROFESSIONAL SUMMARY:
-Backend Developer with 2+ years of professional experience building backend systems, RESTful APIs, and production web applications using Node.js, Express, TypeScript, and MongoDB. Experienced in authentication, authorization, database modeling, reporting, and backend performance optimization, with frontend knowledge in React and Next.js. Currently expanding into Software QA Engineer and Backend Developer roles with expertise in manual testing, API testing (Postman), test case design, and automated testing fundamentals (Cypress, Selenium).
-
-WORK EXPERIENCE:
-1. Gripas Marketing (Dec 2024 – Sep 2026 / Present)
-   Role: Backend Developer
-   Key Responsibilities & Highlights:
-   - Developed and optimized backend features for enterprise CRM and internal applications.
-   - Built core CRM modules: sales reporting, project directory, client directory, and lead & lead pipeline management featuring customizable stages and actions.
-   - Implemented Redis caching and BullMQ for robust background task queues and asynchronous processing.
-   - Designed and maintained MongoDB schemas, relationships, and validation using Mongoose.
-   - Implemented JWT authentication and Role-Based Access Control (RBAC).
-
-2. AGI InfoTech (Mar 2024 – Jun 2024)
-   Role: Backend Developer Intern
-   Key Responsibilities:
-   - Developed RESTful APIs using Node.js, Express, and TypeScript.
-   - Handled database modeling and CRUD operations with MongoDB.
-   - Participated in testing and debugging API endpoints.
-
-KEY PROJECTS:
-1. Gripas Tech CRM (https://crm.gripastech.com/)
-   - Enterprise CRM with pipeline stages, sales reports, client & project directories.
-   - Tech: Node.js, Express, TypeScript, MongoDB, Redis, BullMQ, Next.js.
-2. Caregiver Academia (https://caregiveracademia.com/)
-   - Caregiver CRM & Care Home Compliance Management System.
-   - Tech: Node.js, TypeScript, Express.js, MongoDB, REST APIs, RBAC.
-   - Handled role-based access control (SUPER_ADMIN, RECEPTIONIST, COUNSELOR), fee calculations, outstanding dues, and automated tasks.
-3. Tiya App (https://tiyaapp.com/)
-   - Chiya Pasal & Cafe Management System with digital billing, inventory tracking, daily sales reporting, and expense management.
-   - Tech: React, Node.js, Express, MongoDB.
-4. Silver6 (https://silver6nepal.com/)
-   - Modern E-commerce platform for jewelry and fashion accessories in Nepal, featuring product catalog, cart, checkout, and admin order management.
-   - Tech: Next.js, React, Node.js, MongoDB.
+Software QA professional with a strong backend engineering foundation (2+ years in Node.js, Express.js, TypeScript and MongoDB). Software QA training at TechAxis with hands-on practice in manual testing, test planning, test case design, requirements traceability (RTM), defect reporting in Jira, API testing, performance testing with Apache JMeter, and test automation with Playwright and TypeScript. Brings a developer’s understanding of how APIs, databases and business logic behave, which helps in designing thorough test scenarios, finding root causes faster, and communicating clearly with development teams.
 
 TECHNICAL SKILLS:
-- Backend & APIs: Node.js, Express.js, TypeScript, RESTful APIs, MVC Architecture, Role-Based Access Control (RBAC), JWT Authentication, Error Handling, Middleware Design, Microservices, BullMQ.
-- Databases & Caching: MongoDB, Mongoose, Redis, Schema Design, Data Validation.
-- Software QA & Testing: Manual Testing, API Testing (Postman), Test Automation (Cypress, Selenium WebDriver basics), Test Case Design, Bug Reporting & Tracking, Black Box Testing, Regression Testing, Functional Testing, Agile/Scrum.
-- Tools & DevOps: Git, GitHub, Docker (basics), Postman, Linux, VS Code, CI/CD basics.
-- Frontend: React.js, Next.js, HTML5, CSS3, Tailwind CSS.
+- Manual Testing: Functional Testing, SDLC, STLC, Requirement Analysis, Test Plans, Test Scenarios, Test Cases, Requirements Traceability Matrix (RTM), Equivalence Partitioning, Boundary Value Analysis.
+- Defect Management: Bug Reporting, Severity and Priority, Bug Life Cycle, Jira.
+- API Testing: REST API Testing, HTTP Methods and Status Codes, Request/Response Validation, Authentication and Authorization, JSON payloads.
+- Performance Testing: Apache JMeter, Load Testing, Performance Bottleneck Analysis.
+- Test Automation: Playwright, TypeScript, Page Object Model (POM), Assertions.
+- Tools & Platforms: Jira, Git, GitHub, GitLab, Google Sheets, Redis, Docker (working knowledge).
+- Languages: JavaScript, TypeScript, Python, C.
+- Backend & APIs: Node.js, Express.js, NestJS, Django, REST APIs, GraphQL, Zod.
+- Databases & ORM: MongoDB, PostgreSQL, SQL; Prisma, Mongoose.
+- Frontend: React.js, Next.js, HTML, CSS.
 
-EDUCATION & CERTIFICATIONS:
-- B.Sc. CSIT (Bachelor of Science in Computer Science and Information Technology) — Academia International College, Tribhuvan University (2020 – 2025).
-- +2 Science — Moonlight College, Kumaripati, Lalitpur (2018 – 2020).
-- SEE (Secondary Education Examination) — AVM High School, Manbhawan, Lalitpur (Graduated 2018).
-- Software QA Training — Techaxis, Kumaripati, Lalitpur (Manual Testing, Test Case Design, Bug Lifecycle, API Testing with Postman, Cypress, Selenium).
-- Web Development Course — Aptech Computer Education.
+PROJECTS:
+1. OpenCart — E-commerce QA & Automation Testing (Playwright | TypeScript | Google Sheets)
+   - GitHub: https://github.com/sandip95-web/opencart-qa-automation
+   - Developing manual test documentation, including a test plan, test cases, and a Requirements Traceability Matrix (RTM) in Google Sheets.
+   - Practicing functional testing of user registration, shopping cart, and other selected e-commerce workflows using Equivalence Partitioning and Boundary Value Analysis.
+   - Building automated functional tests using Playwright and TypeScript with a Page Object Model (POM) structure.
+   - Organizing reusable page objects and test data, and documenting test results.
+2. Gripas Tech CRM (https://crm.gripastech.com/)
+   - Enterprise CRM backend featuring automated lead pools, pipeline stage actions, client/project directories, and dynamic reporting powered by Redis and BullMQ.
+   - Conducted load testing to investigate performance bottlenecks and improve backend responsiveness and scalability.
+3. Tiya App (https://tiyaapp.com/) — Cafe Management System
+   - Contributed to a cafe management platform for order processing, billing, financial tracking, role-based access control (owner, staff, admin), and admin dashboards.
+   - Built with Node.js, Express, MongoDB, TypeScript, and React.
+4. Silver6 (https://silver6nepal.com/) — E-commerce Platform
+   - Developed backend functionality for product listings, secure user accounts, order management, cart APIs, and sales reporting using Node.js, Express, MongoDB, and Next.js.
+5. Caregiver Academia (https://caregiveracademia.com/)
+   - Caregiver CRM & Care Home Compliance Management System with RBAC (SUPER_ADMIN, RECEPTIONIST, COUNSELOR), course fee logic, and automated background jobs.
+
+WORK EXPERIENCE:
+1. Gripas Marketing (Dec 2024 – Sep 2026)
+   Role: Backend Developer
+   - Implemented Redis caching and conducted load testing to investigate performance bottlenecks and improve backend responsiveness and scalability.
+   - Independently designed and developed the backend of a CRM system for managing leads, client information, project records and milestones, including lead pools, dashboards, reporting and role-based privilege management.
+   - Built and maintained backend services for Tiya App, a production cafe order-management and financial-tracking platform, including RBAC (owner, staff, admin) and sales, revenue and transaction reporting modules.
+   - Delivered and maintained production features across the CRM and Tiya App using Node.js, Express, TypeScript and MongoDB.
+2. AGI InfoTech (Mar 2024 – Jun 2024)
+   Role: Full Stack Developer Intern
+   - Contributed to a Learning Management System for students applying to study abroad; designed REST APIs and MongoDB schemas for student profiles, applications and document management.
+   - Collaborated with backend and frontend teammates using Node.js, Express, MongoDB and React to deliver LMS features over a 4-month internship.
+
+EDUCATION:
+- B.Sc. Computer Science & IT — Academia International College, Gwarko (2024 | 74.14%)
+- Higher Secondary Education (+2 Science) — Moonlight College (2019 | GPA: 3.03)
+- Secondary School (SLC) — Adarsha Vidya Mandir High School (2017 | GPA: 3.6)
+
+CERTIFICATIONS & ACHIEVEMENTS:
+- Software QA Training — TechAxis, Kumaripati, Lalitpur: manual testing, test planning, test case design, RTM, Jira, JMeter, API testing, and Playwright automation.
+- Mobile App Development Competition — Winner (2023): collaborated on a Flutter/MongoDB app addressing a real-world tracking problem.
+- Graphic Design Certification — Aptech (2023): visual design principles, layout, typography, and design tools.
 
 LANGUAGES:
-- Nepali (Native), English (Fluent), Hindi (Conversational).
+- Nepali (Fluent)
+- English (Fluent)
+- Hindi (Intermediate)
+
+PROFESSIONAL & MENTOR REFERENCES:
+Name: Sandhya Phuyal
+Role: Software QA Engineer
+Company: Cedar Gate Technologies, Lalitpur, Nepal
+Phone: +977-9869416100 (or 9869416100)
+Email: sfuyal@gmail.com
+Relationship: QA Mentor — TechAxis Software QA Training Program
+Context: Sandhya Phuyal is Sandeep's lead Software QA mentor and instructor from TechAxis who guided him through manual testing (STLC, test planning, test case design, RTM, Jira defect tracking), API testing, JMeter load testing, and Playwright automation.
 `;
 
 function getSmartFallback(message: string): string {
   const query = message.toLowerCase();
 
-  if (query.includes("skill") || query.includes("stack") || query.includes("technolog")) {
-    return `**Sandeep's Technical Skills:**
-• **Backend & APIs:** Node.js, Express.js, TypeScript, RESTful APIs, JWT, RBAC, BullMQ
-• **Databases & Caching:** MongoDB, Mongoose, Redis
-• **Software QA & Testing:** Manual Testing, API Testing (Postman), Cypress, Selenium basics, Test Case Design, Bug Tracking
-• **Frontend:** React.js, Next.js, Tailwind CSS
-• **Tools:** Git, GitHub, Docker (basics), Postman, Linux`;
+  if (
+    query.includes("reference") ||
+    query.includes("mentor") ||
+    query.includes("sandhya") ||
+    query.includes("phuyal") ||
+    query.includes("cedar")
+  ) {
+    return `**Professional & Mentor Reference for Sandeep:**
+• **Name:** Sandhya Phuyal
+• **Current Role:** Software QA Engineer at **Cedar Gate Technologies**, Lalitpur
+• **Relationship:** QA Mentor & Instructor at **TechAxis** Software QA Training Program
+• **Phone:** [+977-9869416100](tel:+9779869416100)
+• **Email:** [sfuyal@gmail.com](mailto:sfuyal@gmail.com)
+
+Sandhya mentored Sandeep through manual testing (STLC, test planning, RTM), Jira defect management, REST API validation, Apache JMeter performance testing, and Playwright automation with TypeScript.`;
   }
 
-  if (query.includes("project") || query.includes("gripas") || query.includes("tiya") || query.includes("silver") || query.includes("caregiver")) {
-    return `**Sandeep's Featured Projects:**
-1. **Gripas Tech CRM** ([Live](https://crm.gripastech.com/)): Enterprise CRM with lead pipelines, sales reporting, Redis, BullMQ, Node.js, TypeScript & MongoDB.
-2. **Caregiver Academia** ([Live](https://caregiveracademia.com/)): Care home compliance CRM with RBAC, fee calculations, and automated background tasks.
-3. **Tiya App** ([Live](https://tiyaapp.com/)): Chiya pasal & cafe management system with digital billing, inventory tracking, and sales analytics.
-4. **Silver6** ([Live](https://silver6nepal.com/)): Modern jewelry and accessories e-commerce platform built with Next.js and Node.js.`;
+  if (
+    query.includes("qa") ||
+    query.includes("test") ||
+    query.includes("playwright") ||
+    query.includes("jmeter") ||
+    query.includes("rtm") ||
+    query.includes("opencart")
+  ) {
+    return `**Sandeep's Software QA & Testing Capabilities:**
+• **Test Automation:** Playwright with TypeScript, Page Object Model (POM), assertions, test runner configuration
+• **Manual Testing & STLC:** Test Plans, Test Scenarios, Test Cases, Requirements Traceability Matrix (RTM), Equivalence Partitioning, Boundary Value Analysis
+• **API Testing:** REST API testing, status codes, request/response validation, auth tokens, JSON
+• **Performance Testing:** Apache JMeter, load testing, response times, bottleneck analysis
+• **Defect Tracking:** Jira, Bug Life Cycle, severity/priority triage
+• **Featured QA Project:** **OpenCart QA & Automation** ([GitHub](https://github.com/sandip95-web/opencart-qa-automation)) featuring manual test docs (RTM) and Playwright POM automation suite.`;
   }
 
-  if (query.includes("experience") || query.includes("job") || query.includes("work") || query.includes("company")) {
-    return `**Sandeep's Professional Experience:**
-• **Backend Developer** at **Gripas Marketing** (Dec 2024 – Present): Building enterprise CRM features, sales reports, lead pipelines, BullMQ background queues, and Redis caching.
-• **Backend Developer Intern** at **AGI InfoTech** (Mar 2024 – Jun 2024): Developed RESTful APIs, database modeling, and API testing with Node.js and MongoDB.`;
+  if (
+    query.includes("skill") ||
+    query.includes("stack") ||
+    query.includes("technolog")
+  ) {
+    return `**Sandeep's Technical Skills (QA & Backend):**
+• **QA & Automation:** Playwright, TypeScript, Apache JMeter, Manual Testing, STLC, RTM, Jira, REST API Testing
+• **Backend Engineering:** Node.js, Express.js, TypeScript, REST APIs, GraphQL, NestJS, Django, Python
+• **Databases & Caching:** MongoDB, Mongoose, PostgreSQL, SQL, Redis, BullMQ, Prisma
+• **Frontend & Tools:** React.js, Next.js, HTML5/CSS3, Git, GitHub, GitLab, Google Sheets, Docker (basics)`;
   }
 
-  if (query.includes("contact") || query.includes("email") || query.includes("phone") || query.includes("reach") || query.includes("hire")) {
+  if (
+    query.includes("project") ||
+    query.includes("opencart") ||
+    query.includes("gripas") ||
+    query.includes("tiya") ||
+    query.includes("silver") ||
+    query.includes("caregiver")
+  ) {
+    return `**Featured Projects (QA & Backend):**
+1. **OpenCart QA & Automation** ([GitHub](https://github.com/sandip95-web/opencart-qa-automation)): E-commerce test suite with manual test plan, test cases, RTM in Google Sheets, and Playwright + TypeScript POM automation.
+2. **Gripas Tech CRM** ([Live](https://crm.gripastech.com/)): Enterprise CRM with lead pipelines, sales reporting, Redis caching, BullMQ, and load testing.
+3. **Tiya App** ([Live](https://tiyaapp.com/)): Cafe management platform with digital billing, order processing, and RBAC reporting.
+4. **Silver6** ([Live](https://silver6nepal.com/)): Modern jewelry and apparel e-commerce platform built with Next.js, Node.js, and MongoDB.`;
+  }
+
+  if (
+    query.includes("experience") ||
+    query.includes("job") ||
+    query.includes("work") ||
+    query.includes("company")
+  ) {
+    return `**Professional Experience:**
+• **Backend Developer** at **Gripas Marketing** (Dec 2024 – Sep 2026): Engineered CRM backend systems, lead pools, Tiya App cafe services, Redis caching, and conducted load testing for performance bottleneck resolution.
+• **Full Stack Developer Intern** at **AGI InfoTech** (Mar 2024 – Jun 2024): Built study-abroad LMS features, REST APIs, and MongoDB schemas.`;
+  }
+
+  if (
+    query.includes("education") ||
+    query.includes("college") ||
+    query.includes("degree") ||
+    query.includes("training")
+  ) {
+    return `**Education & Certifications:**
+• **B.Sc. Computer Science & IT** — Academia International College (2024 | 74.14%)
+• **Higher Secondary (+2 Science)** — Moonlight College (2019 | GPA: 3.03)
+• **SLC** — Adarsha Vidya Mandir High School (2017 | GPA: 3.6)
+• **Software QA Training** — TechAxis, Lalitpur (Manual Testing, RTM, Jira, JMeter, API Testing, Playwright Automation)
+• **Mobile App Dev Competition Winner** (2023)
+• **Graphic Design Certification** — Aptech (2023)`;
+  }
+
+  if (
+    query.includes("contact") ||
+    query.includes("email") ||
+    query.includes("phone") ||
+    query.includes("reach") ||
+    query.includes("hire")
+  ) {
     return `**Contact Sandeep Maharjan:**
 • **Email:** [sandipmaharjan95@gmail.com](mailto:sandipmaharjan95@gmail.com)
 • **Phone:** [+977-9818504980](tel:+9779818504980)
@@ -115,29 +203,13 @@ function getSmartFallback(message: string): string {
 [📄 Sandeep Maharjan's Resume (Google Drive)](https://drive.google.com/file/d/1Huuh9RPEJhS6HsEB3XzEmpv1nF30UMB5/view?usp=sharing)`;
   }
 
-  if (query.includes("qa") || query.includes("test") || query.includes("quality")) {
-    return `**Software QA Competencies:**
-Sandeep completed specialized Software QA Engineer training at **Techaxis** covering:
-• Manual Testing, Functional & Regression Testing, Black Box Testing
-• Test Case Design, Execution & Bug Lifecycle Tracking
-• API Testing with Postman (validation, status codes, payload assertions)
-• Automation Testing foundations with Cypress and Selenium WebDriver`;
-  }
-
-  if (query.includes("education") || query.includes("college") || query.includes("degree")) {
-    return `**Education:**
-• **B.Sc. CSIT** — Academia International College, Tribhuvan University (2020 – 2025)
-• **+2 Science** — Moonlight College, Kumaripati, Lalitpur (2018 – 2020)
-• **SEE** — AVM High School, Manbhawan, Lalitpur (2018)`;
-  }
-
   return `Hello! I'm Sandeep Maharjan's AI Assistant. 
 
 I can answer questions about his:
-• **Backend Development Experience** (Node.js, Express, TypeScript, MongoDB, Redis, BullMQ)
-• **Software QA & Testing Knowledge** (Postman API Testing, Cypress, Test Cases, Bug Reporting)
-• **Featured Projects** (Gripas CRM, Caregiver Academia, Tiya App, Silver6)
-• **Education & Contact Information**
+• **Software QA & Test Automation** (Playwright, Manual Testing, RTM, Jira, API Testing, Apache JMeter)
+• **Backend Engineering Experience** (Node.js, Express, TypeScript, MongoDB, Redis, Load Testing)
+• **Professional Projects** (OpenCart QA Suite, Gripas CRM, Tiya Cafe App, Silver6)
+• **Education, Mentor Reference & Contact Info** (Sandhya Phuyal from Cedar Gate Technologies)
 
 How can I help you today?`;
 }
@@ -165,10 +237,12 @@ export async function POST(req: Request) {
     }
 
     // Prepare contents array for Gemini API
-    const geminiContents = messages.map((m: { role: string; content: string }) => ({
-      role: m.role === "assistant" ? "model" : "user",
-      parts: [{ text: m.content }],
-    }));
+    const geminiContents = messages.map(
+      (m: { role: string; content: string }) => ({
+        role: m.role === "assistant" ? "model" : "user",
+        parts: [{ text: m.content }],
+      })
+    );
 
     const response = await fetch(
       `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`,

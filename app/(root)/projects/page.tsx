@@ -2,7 +2,7 @@ import { Metadata } from "next";
 
 import PageContainer from "@/components/common/page-container";
 import ProjectCard from "@/components/projects/project-card";
-import { ResponsiveTabs } from "@/components/ui/responsive-tabs";
+import { ResponsiveTabs, TabItem } from "@/components/ui/responsive-tabs";
 import { pagesConfig } from "@/config/pages";
 import { Projects } from "@/config/projects";
 
@@ -13,10 +13,14 @@ export const metadata: Metadata = {
 
 const renderContent = (tabVal: string) => {
   let projectArr = Projects;
-  if (tabVal === "personal") {
-    projectArr = projectArr.filter((val) => val.type === "Personal");
-  } else if (tabVal === "professional") {
-    projectArr = projectArr.filter((val) => val.type === "Professional");
+  if (tabVal === "qa") {
+    projectArr = projectArr.filter((val) =>
+      val.category.includes("QA & Testing")
+    );
+  } else if (tabVal === "backend") {
+    projectArr = projectArr.filter((val) =>
+      val.category.includes("Backend")
+    );
   }
 
   return (
@@ -29,21 +33,31 @@ const renderContent = (tabVal: string) => {
 };
 
 export default function ProjectsPage() {
-  const tabItems = [
+  const qaCount = Projects.filter((p) =>
+    p.category.includes("QA & Testing")
+  ).length;
+  const backendCount = Projects.filter((p) =>
+    p.category.includes("Backend")
+  ).length;
+
+  const tabItems: TabItem[] = [
     {
       value: "all",
-      label: "All",
+      label: "All Projects",
+      count: Projects.length,
       content: renderContent("all"),
     },
     {
-      value: "personal",
-      label: "Personal",
-      content: renderContent("personal"),
+      value: "qa",
+      label: "QA & Automation",
+      count: qaCount,
+      content: renderContent("qa"),
     },
     {
-      value: "professional",
-      label: "Professional",
-      content: renderContent("professional"),
+      value: "backend",
+      label: "Backend Systems",
+      count: backendCount,
+      content: renderContent("backend"),
     },
   ];
 
