@@ -2,7 +2,7 @@
 
 > **Aspiring Software QA Engineer | Backend Developer**  
 > Jawalakhel-5, Lalitpur, Bagmati Province, Nepal  
-> 🌐 [Portfolio](https://sandeepmaharjan95.com.np/) • 💼 [LinkedIn](https://linkedin.com/in/sandip-maharjan) • 🐙 [GitHub](https://github.com/sandip95-web) • 📄 [Resume](https://drive.google.com/file/d/1Huuh9RPEJhS6HsEB3XzEmpv1nF30UMB5/view?usp=sharing)
+> 🌐 [Portfolio](https://sandeepmaharjan95.com.np/) • 💼 [LinkedIn](https://linkedin.com/in/sandip-maharjan) • 🐙 [GitHub](https://github.com/sandip95-web) • 📄 [Resume](https://drive.google.com/file/d/1Vn76dYJeMgjw1ojhxFVZ7jJTWh7q04_w/view?usp=sharing)
 
 ---
 
@@ -66,7 +66,7 @@ SMTP_PASSWORD=your_google_app_password
 GEMINI_API_KEY=AIzaSy_your_free_key
 
 # Resume Link
-NEXT_PUBLIC_RESUME_LINK=https://drive.google.com/file/d/1Huuh9RPEJhS6HsEB3XzEmpv1nF30UMB5/view?usp=sharing
+NEXT_PUBLIC_RESUME_LINK=https://drive.google.com/file/d/1Vn76dYJeMgjw1ojhxFVZ7jJTWh7q04_w/view?usp=sharing
 ```
 
 ### 4. Run the development server:

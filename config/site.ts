@@ -10,7 +10,7 @@ export const siteConfig = {
     linkedin: "https://linkedin.com/in/sandip-maharjan",
     portfolio: "https://sandeepmaharjan95.com.np/",
     resume:
-      "https://drive.google.com/file/d/1Huuh9RPEJhS6HsEB3XzEmpv1nF30UMB5/view?usp=sharing",
+      "https://drive.google.com/file/d/1Vn76dYJeMgjw1ojhxFVZ7jJTWh7q04_w/view?usp=sharing",
   },
   ogImage: "/profile.png",
   iconIco: "/logo.png",

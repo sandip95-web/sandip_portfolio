@@ -21,7 +21,7 @@ Contact:
 - LinkedIn: https://linkedin.com/in/sandip-maharjan
 - GitHub: https://github.com/sandip95-web
 - Portfolio: https://sandeepmaharjan95.com.np/
-- Resume Link: https://drive.google.com/file/d/1Huuh9RPEJhS6HsEB3XzEmpv1nF30UMB5/view?usp=sharing
+- Resume Link: https://drive.google.com/file/d/1Vn76dYJeMgjw1ojhxFVZ7jJTWh7q04_w/view?usp=sharing
 
 PROFESSIONAL SUMMARY:
 Software QA professional with a strong backend engineering foundation (2+ years in Node.js, Express.js, TypeScript and MongoDB). Software QA training at TechAxis with hands-on practice in manual testing, test planning, test case design, requirements traceability (RTM), defect reporting in Jira, API testing, performance testing with Apache JMeter, and test automation with Playwright and TypeScript. Brings a developer’s understanding of how APIs, databases and business logic behave, which helps in designing thorough test scenarios, finding root causes faster, and communicating clearly with development teams.
@@ -200,7 +200,7 @@ Sandhya mentored Sandeep through manual testing (STLC, test planning, RTM), Jira
 
   if (query.includes("resume") || query.includes("cv")) {
     return `You can view or download Sandeep's official resume here:
-[📄 Sandeep Maharjan's Resume (Google Drive)](https://drive.google.com/file/d/1Huuh9RPEJhS6HsEB3XzEmpv1nF30UMB5/view?usp=sharing)`;
+[📄 Sandeep Maharjan's Resume (Google Drive)](https://drive.google.com/file/d/1Vn76dYJeMgjw1ojhxFVZ7jJTWh7q04_w/view?usp=sharing)`;
   }
 
   return `Hello! I'm Sandeep Maharjan's AI Assistant. 

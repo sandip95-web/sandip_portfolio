@@ -8,7 +8,7 @@ export default function ResumePage() {
   const [hasRedirected, setHasRedirected] = useState(false);
   const resumeLink =
     process.env.NEXT_PUBLIC_RESUME_LINK ||
-    "https://drive.google.com/file/d/1Huuh9RPEJhS6HsEB3XzEmpv1nF30UMB5/view?usp=sharing";
+    "https://drive.google.com/file/d/1Vn76dYJeMgjw1ojhxFVZ7jJTWh7q04_w/view?usp=sharing";
 
   useEffect(() => {
     if (resumeLink && resumeLink !== "your_resume_link") {
